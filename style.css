@@ -1,0 +1,246 @@
+.first-page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url(/images/main.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 20%;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .links {
+    display: flex;
+    gap: 32px;
+  }
+  .links > p > a {
+    font-size: 18px;
+    color: #1c1d1f;
+    text-decoration: none;
+  }
+  
+  .header > p {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+  
+  .description h1 {
+    font-size: 36px;
+  }
+  
+  .description button {
+    font-size: 1em;
+    padding: 1.5% 8% 1.5% 8%;
+  
+    color: white;
+    border: 2px solid white;
+    border-radius: 38px;
+  
+    font-weight: 600;
+  
+    background: #f06e11;
+  
+    cursor: pointer;
+  }
+  
+
+  
+  .second-page {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 5%;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .second-page > h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .imageandtext {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .block {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+  }
+  
+  .item {
+    text-align: center;
+    color: #161a1f;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .third-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 30px;
+    background-color: #2b271b;
+  }
+  .third-page > p {
+    border: 1px solid rgb(220, 223, 204);
+    padding: 2%;
+    border-radius: 20px;
+    color: azure;
+    text-align: start;
+    width: 80%;
+    background-color: #1c1e20;
+    font-size: 20px;
+  }
+  
+  
+  .inspiringquote {
+    background-color: #e5e5e5;
+    padding: 150px 130px 150px 130px;
+  }
+  
+  .inspiringquote > p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    /* написано в шаблоне light italic но у меня не работает он */
+  }
+  
+  .first-meal,
+  .third-meal {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2%;
+    padding: 7% 7% 7% 7%;
+    height: 500px;
+    align-items: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    border: 1px solid gray;
+
+  }
+  
+  .second-meal,
+  .fourth-meal {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 5%;
+    padding: 7% 7% 7% 7%;
+    height: 500px;
+    align-items: center;
+    border: 1px solid gray;
+  }
+  
+  .first-meal-img {
+    background-image: url(./images/syr.jpg);
+  }
+  
+  .second-meal-img {
+    background-image: url(./images/kes.jpg);
+  }
+  
+  .third-meal-img {
+    background-image: url(./images/tuna.jpg);
+  }
+  .fourth-meal-img {
+    background-image: url(./images/shak.jpg);
+    margin-top: 120px;
+  }
+  
+  .first-meal-img,
+  .second-meal-img,
+  .third-meal-img,
+  .fourth-meal-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    width: 35%;
+    height: 100%;
+  
+    color: white;
+    position: relative;
+    border-radius: 16px;
+  }
+  
+  .recipe {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 65%;
+    font-size: 18px;
+  }
+  
+  .recipe > p {
+    color: #e10c0c;
+    font-weight: 600;
+  }
+
+  .last-page {
+    display: flex;
+    justify-content: center;
+    background-color: #2b271b;
+    padding: 5%;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+  
+    gap: 60px;
+    background-color: #a89756;
+    padding: 3% 10% 3% 10%;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  .list button {
+    font-size: 1em;
+  
+    padding: 5px 5px 5px 5px;
+    width: 150px;
+    height: 40px;
+  
+    color: white;
+    font-weight: 600;
+  
+    background: none;
+    border-radius: 38px;
+    border: 2px solid white;
+  
+    cursor: pointer;
+  }
